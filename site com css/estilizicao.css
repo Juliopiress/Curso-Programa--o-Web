@@ -1,0 +1,150 @@
+/* Define estilos padrão para todos os elementos, removendo margens, preenchimentos e estilos de lista */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Estilos para o cabeçalho (header) */
+
+header {
+    background-color: #798ea1; /* Cor de fundo azul */
+    padding: 60px; /* Espaçamento interno ao redor do conteúdo */
+    display: flex; /* Utiliza Flexbox para layout */
+    justify-content: space-around; /* Espaça os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+/* Estilos para a imagem dentro do cabeçalho */
+
+header img {
+    width: 100px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+}
+
+/* Estilos para a lista dentro do cabeçalho */
+
+header div ul {
+    display: flex; /* Exibe a lista como um flex container */
+}
+
+/* Estilos para os itens da lista dentro do cabeçalho */
+
+header div ul li {
+    margin-right: 15px; /* Espaçamento à direita entre os itens da lista */
+}
+
+/* Estilos para os links dentro da lista do cabeçalho */
+header div ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: wheat; /* Cor do texto dos links */
+    font-weight: 800; /* Peso da fonte dos links  */
+}
+
+/* Estilos para a primeira seção */
+
+.seção1 {
+    padding: 250px; /* Espaçamento interno em todos os lados */
+    background-color: #798ea1; /* Cor de fundo azul */
+    display: flex; /* Utiliza Flexbox para layout */
+    justify-content: center; /* Alinha o conteúdo horizontalmente ao centro */
+    align-items: center; /* Alinha o conteúdo verticalmente ao centro */
+    background-image: url(iamgens/imagem\ site\ musica.jpg); /* Imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o container */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center; /* Posiciona a imagem ao centro */
+    padding: 300px; /* Espaçamento interno aumentado (pode sobrepor o padding anterior) */
+}
+
+
+/* Estilos para o botão na primeira seção */
+
+.seção1 button {
+    width: 150px; /* Largura do botão */
+    height: 45px; /* Altura do botão */
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: #aac0d0; /* Cor de fundo do botão */
+    border-color: rgb(78, 78, 104); /* Cor da borda do botão */
+    box-shadow: 5px 5px 5px rgb(44, 44, 46); /* Sombra ao redor do botão */
+    cursor: pointer; /* Muda o cursor para uma mão quando passa sobre o botão */
+    justify-content: center; /* Alinha o conteúdo do botão ao centro (não necessário aqui) */
+}
+
+
+/* Estilos para a segunda seção */
+
+.seção2 {
+    padding: 250px; /* Espaçamento interno em todos os lados */
+    background-color: #c2d8e8; /* Cor de fundo azul claro */
+    display: flex; /* Utiliza Flexbox para layout */
+    justify-content: space-evenly; /* Espaça os itens igualmente */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+
+/* Estilos para o parágrafo na segunda seção */
+
+.seção2 p {
+    margin: 30px; /* Espaçamento ao redor do parágrafo */
+    color: rgb(12, 12, 12); /* Cor do texto */
+    font-size: 20px; /* Tamanho da fonte */
+    font-weight: 300; /* Peso da fonte (leve) */
+}
+
+
+/* Estilos para o título (h2) na segunda seção */
+
+.seção2 h2 {
+    margin: 30px; /* Espaçamento ao redor do título */
+    color: rgb(12, 12, 12); /* Cor do texto */
+    font-size: 40px; /* Tamanho da fonte */
+    font-weight: 300; /* Peso da fonte (leve) */
+}
+
+
+/* Estilos para a terceira seção */
+
+.seção3 {
+    background-image: url(iamgens/imagem-parte-de-baixo\ \(1\).jpg); /* Imagem de fundo */
+    background-attachment: fixed; /* A imagem de fundo fixa*/
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o container */
+    background-position: center; /* Posiciona a imagem ao centro */
+    padding: 300px; /* Espaçamento interno em todos os lados */
+}
+
+
+/* Estilos para o rodapé (footer) */
+
+footer {
+    background-color: #798ea1; /* Cor de fundo azul */
+    display: flex; /* Utiliza Flexbox para layout */
+    justify-content: center; /* Alinha o conteúdo horizontalmente ao centro */
+    padding: 20px; /* Espaçamento interno ao redor do conteúdo */
+}
+
+
+/* Estilos para a lista dentro do rodapé */
+
+footer div ul {
+    display: flex; /* Exibe a lista como um flex container */
+}
+
+
+/* Estilos para os itens da lista dentro do rodapé */
+
+footer div ul li {
+    margin-right: 15px; /* Espaçamento à direita entre os itens da lista */
+}
+
+
+/* Estilos para os links dentro da lista do rodapé */
+
+footer div ul li a {
+    color: #331d4a; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: 300; /* Peso da fonte  */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*  fonte dos links */
+}
