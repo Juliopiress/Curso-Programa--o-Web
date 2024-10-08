@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emporio-Padaria</title>
+  
+    <link rel="stylesheet" href="tela1.css">
+    
+</head>
+<body>
+    
+<header>
+    <img src="img/tangirina.png" alt=""> <!-- icone tangerina-->
+
+<h1> Emporio Dom Bosco</h1>
+
+<nav class="navbar">
+<ul class="nav-links">
+
+<li class="item-menu-header">
+    <a href=""> HOME</a>
+</li>
+
+<li class="item-menu-header">
+<a href="">PRODUTOS</a>
+</li>
+
+<li class="item-menu-header">
+<a href="">CONTATOS</a>
+</li>
+
+<li class="item-menu-header">
+    <a href="">SOBRE NÓS</a>
+</li>
+
+</ul>
+
+
+<!-- Criamos nossa caixa preta (DIV) para guardar os elementos
+ do hamburgue -->
+<div class="mobile-menu" id="mobileMenu">
+
+<!-- Botão para ser utilizado para fechamento da lista -->
+
+<button id="closeButton" class="close"> <!-- butao de fechar-->
+<i class="fas fa-times"></i>
+</button>
+
+<!--  -->
+<ul class="nav-links-mobile">
+
+<li>
+    <a href="">TESTE</a>
+</li>
+
+<li>
+    <a href="">TESTE</a>
+</li>
+
+<li>
+    <a href="">TESTE</a>
+</li>
+
+</ul>
+
+<!--  -->
+<div id="btn-mobile" class="cad-mobile">
+<button>
+<a href="" target="_blank">
+
+<!-- img do butão -->
+<p> Cadastre-se</p>
+</a>
+</button>
+</div>
+
+<!-- Fim da caixa do Menu Hamburguer (Quando estiver aberto) -->
+</div>
+
+<!-- Botão de hamburguer, ele está fora da div justamente por ser um elemento singular -->
+<button class="hamburgue" id="hamburgue">
+<i class="fas fa-bars"></i>
+</button>
+
+ <!-- Fim do Menu de Navegação -->
+
+</nav>
+
+<div id="btn-header">
+<button>
+    <a href="" target="_blank">
+
+        <img src="" alt="img do butao">
+
+        <p>Cadastre-se</p>
+    </a>
+</button>
+</div>
+
+</header>
+
+
+<div id="img-destaque">
+<div class="img-padaria efeito-img-topo"></div>
+</div>
+   
+
+<div class="img-div"></div>
+
+<main>
+    <section id="clients" class="clientes-efeitos">
+       
+          <h2>NOSSOS CLIENTES</h2>
+           
+          <hr class="line">
+
+          <ul id="clients-itens">
+
+           <!--   Primeiro feedback   -->
+           <li class="clients-itens">
+
+            <img src="img/personagem.png" alt="icone personagem" loading="lazy">
+            
+            <h3>Igor Oliveira</h3>
+            <p>"Otimos produtos e serviços"</p>
+           </li>
+ 
+           <!--  Segundo Feedback  -->
+
+             <li id="clients-itens">
+             <img src="img/personagemfemi.png" alt="icone personagem" loading="lazy">
+               
+               <h3>Isadora Martins</h3>
+               <p>"Excelente preço"</p>
+             </li>
+
+            <!-- Terceiro Feedback -->
+            
+            <li id="clients-itens">
+               <img src="img/personagem.png" alt="icone personagem" loading="lazy">
+
+               <h3>Samuel Rodrigues</h3>
+               <p>Pães frescos e de otima qualidade</p>
+            </li> 
+          </ul>
+
+    </section>
+ 
+     <div class="img-div"></div> <!-- Fita de baixo do site-->
+
+     <section class="principais produtos" id="featured-products">
+
+    <!-- Div pai um -->
+
+     <div class="products">
+       
+      <div>
+        <img src="img/muflin.jpg" alt="" loading="lazy">
+        <h4 class="title-products">Mufflin</h4>
+      </div>
+   
+       <div>
+        <img src="img/pao.jpg" alt="" loading="lazy">
+        <h4 class="title-products">Croasaint</h4>
+       </div>
+
+
+     </div>
+
+     <!-- Div pai dois -->
+
+     <div class="products">
+
+        <div>
+            <img src="img/bomba-chocolate.jpg" alt="" loading="lazy">
+            <h4 class="title-products">Bomba de chocolate</h4>
+        </div>
+
+        <div>
+            <img src="img/beirute.png" alt="" loading="lazy">
+            <h4 class="title-products">Beirute</h4>
+        </div>
+
+     </div>
+
+       <!-- div pai três -->
+
+     <div class="products">
+
+        <div>
+            <img src="img/bolo.jpg" alt="" loading="lazy">
+            <h4 class="title-products">Bolo</h4>
+        </div>
+                  
+        <div>
+            <img src="img/pao-de-metro.jpg" alt="" loading="lazy">
+            <h4 class="title-products">Pão de metro</h4>
+        </div>
+
+     </div>
+
+       <a href="produtos.html">
+        Ver tudo
+       </a>
+     </section>
+
+     <section id="sobre-nos">
+
+     </section>
+</main>
+
+
+
+
+</body>
+</html>
